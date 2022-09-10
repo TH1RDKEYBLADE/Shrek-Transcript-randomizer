@@ -35,7 +35,7 @@ def main():
             random_word(word_list)
 
             # Edit number below. (in seconds)
-            sleep(0.25)
+            sleep(1)
             
 if __name__ == "__main__":
     main()
