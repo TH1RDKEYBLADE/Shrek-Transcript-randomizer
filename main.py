@@ -25,7 +25,7 @@ def main():
     print()
 
     # Opens the script file (must be in same directory as Python file)
-    with open(path.join(path.dirname(__file__), 'shrek_script.txt'), encoding='utf-8') as f:
+    with open(path.join(path.dirname(__file__), 'shrek_transcript.txt'), encoding='utf-8') as f:
         
         all_text = f.read()
         word_list = all_text.split()
